@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
+
+	<?php require('partials/nav.php')  ?>
     <ul>
+    	<h1>My tasks</h1>
       <?php
       
       foreach($tasks as $tasks=>$valor){

@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+	<?php require('partials/nav.php')  ?>
     <h1> Our Culture </h1>
 </body>
 </html>
