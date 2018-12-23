@@ -2,9 +2,9 @@
 
 $database = require 'core/bootstrap.php';
 
-$router = new Router;
+//$router = new Router;
 
-require 'routes.php';
+//require 'routes.php';
 
 
 //$uri = trim($_SERVER['REQUEST_URI'],'/');
@@ -12,4 +12,4 @@ require 'routes.php';
 // var_dump($_SERVER);
 
 require Router::load('routes.php')
-->direct(Request::uri(''));
+->direct(Request::uri(), REQUEST::method());
